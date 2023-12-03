@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    
+}
+html,body{
+    width:100%;
+    height:100%;
+    background-color:#235390;
+    height: 150vh;
+}
+h1{
+    margin-left: 148px;
+    margin-top: 45px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 60px;
+    
+}
+#earth{
+    border: 2px solid white;
+    box-shadow: 10px 10px 10px rgb(228, 190, 218),-10px -10px 10px rgb(228, 190, 218);
+    border-radius: 1000px;
+    float: left;
+}
+h2{
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+#japanflag{
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 1000px;
+    margin: 20px;
+
+}
+body{
+    background-image: url(imagesleaning/Lovepik_com-400871421-floating-stars.png);
+    background-repeat:no-repeat;
+    background-position:unset;
+    background-size:110%;
+    background-attachment:fixed;
+    background-blend-mode:soft-light;
+}
+#sitedropdwon{
+    position: absolute;
+    
+}
+
+
+.dropbtn {
+    background-color:red;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    
+
+  }
+  
+  /* Style for dropdown content */
+  .dropdown-content{
+    display: none; /* Hidden by default */
+    position: absolute;
+    background-color: gray;
+    min-width: 85px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* text-transform: uppercase; */
+    font-size: 14px;
+  }
+  
+  /* Style for each content div */
+  .dropdown-content div {
+    padding: 20px 70px;
+  }
+  
+  /* Highlight dropdown options on hover */
+  .dropdown-content div:hover {
+    background-color: #eaeaea;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+  .dropbtn h3:hover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;

@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!--Document types tells browser what type of document to expect or is dealing with -->
+<html lang="en-IND">
+    <head> <!--data that is not seen on webpage(meta data) is stored inside "head" tags, but head tags are very important too, see below so much is there inside of head tag-->
+        <meta charset="UTF-8"><!--The <meta> tag defines metadata about an HTML document. Metadata is data (information) about data. <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. -->
+        <meta name="author" content="Harsh">
+        <meta name="description" content="This page contains all the things iam learning how to create as i learn html">
+        <!--These info could be picked up in a search engine -->
+        <title>My Second Webpage</title>
+        <link rel="icon" href="./dog.png" type="image/x-icon"><!--link tag is used to define relation b/w current doucument and external resouce/document. This is the same tag with which/where we will add the css file. It pulls in resouces.It goes only in the head sectio-->
+        <link rel="stylesheet" href="./main.css" type="text/css"><!--Link tag do document and external resources ko jodne ka kaam karta hai whereas anchor tag ek webpage se doosre webpage lejane ka. Link and anchor tag ek doosre ka kaam nahi kar sakte. Hence we provide abolutre address/reference to anchor tag and relative address/reference to link tag-->
+        
+    </head>
+
+    <body> <!--The every data/thing which gets shown on the webpagees(texts,images,gifs,tables etc etc) are coded/stored inside the body -->
+        <header>
+            <h1>Hello World!</h1>
+            <nav> <!--semantic tag: navigates within the sections of the page or document-->
+                <ul>
+                    <li><a href="#goats">My Goats</a></li>
+                    <li><a href="#hobbies">My Hobbies</a></li>
+                    <li><a href="#avoid">Avoid</a></li>
+                    <li><a href="#mypic">Me</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <hr><!--Adds a line for differentiation b/w topics and subtopics-->
+        <main>
+            <h2>Im ready to learn <abbr title="Hyper Text Markup Language">HTML</abbr></h2> <!--abbr(abbriviation). Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element-->
+            <p>This is my <em>second</em> webpage</p> <!--both <em> emphasis and <strong> inline tags are used to force emphasis on word or text.-->
+
+            <h3>My Daily Schedule</h3>
+            <p>Let me tell you how:
+                <br>&nbsp;&nbsp;&nbsp;I learn about web dev. <!--The <br> tag inserts a single line break. The <br> tag is an empty tag which means that it has no end tag. Usefull for writing poems-->
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;I plan out my schedule. <!--nbsp (non-breaking space) gives spaces in a line, Since VSS or any editor auto fills space after you save the file -->
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I us resouces from <strong>W3S.</strong> 
+            </p>
+
+            <hr>
+            <section id="goats">
+                <h3>My Goats</h3>
+                <ol>
+                    <li>Messi</li>
+                    <li><abbr title="Cristian Ronaldo(Jersey No.7)">CR7</abbr></li>
+                    <li>Neymar</li>
+                    <li>Suarez</li>
+                    <li><abbr title="Ronaldo Nazario">R9</abbr></li>
+                </ol>
+                
+            </section>
+                <hr>
+            <section id="hobbies">
+                <h3>My Hobbies</h3>
+                <ul>
+                    <li><p>Playing Football</p></li> <!--List tag automatically intends the items within it-->
+                    <li><p>Watching <a href="https://www.youtube.com/" target="_blank">Youtube</a></p></li>
+                    <li>Cooking</li>
+                </ul> 
+            </section>
+                <hr>
+            <section id="avoid">
+                <h3>Things I would like to avoid</h3>
+                <dl> <!--desciption list-->
+                    <dt>Wasting Time:</dt> <!--desciption term-->
+                    <dd>I heard that in Colleges time passes just like within a blink of time</dd> <!--description detail-->
+                <br>
+                    <dt>Wasting Money:</dt>
+                    <dd>For some reasons i unintentionally, spends more money than i should which leaves me empty pocket.</dd>
+                </dl>
+            </section>
+         </main>
+        <hr>
+        <footer>
+            <figure id="mypic">
+                <img src="./My Resume/f280dcd8-be2f-4ab2-9ae6-87f2ca4a697a.jpg" alt="Harsh Picture" style="align-content: center;" width="200" title="Harsh" >
+                <figcaption>
+                    I could've worked more hard for my mid term exam
+                </figcaption>
+            </figure>
+            
+            &lt;&lt;&lt; &copy; <a href="./My Resume/index.html" target="_blank">Harsh</a>  &gt;&gt;&gt; <!--less than character entity(&lt) and greater than character entity(&gt)-->
+            <br><a href="#">Back to Top</a>
+        </footer>
+
+    </body>
+
+
+</html>

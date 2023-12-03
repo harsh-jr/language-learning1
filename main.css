@@ -1,0 +1,22 @@
+html{
+    font-size: 22px;
+}
+body{
+    background-color: grey;
+    color: whitesmoke;
+}
+a{
+    color: aliceblue;
+}
+
+a:visited{
+    color:lightblue
+}  /* it changes the color of link after you have visited from aliceblue into lightblue*/
+
+a:hover{
+    color: deeppink;
+} /* it changes the color of link into deeppink when you plave you mouse on the link/when you hover over the link */
+
+figcaption{
+    font-size: 16px;
+}
